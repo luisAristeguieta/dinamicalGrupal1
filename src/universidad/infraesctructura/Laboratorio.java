@@ -10,4 +10,9 @@ public class Laboratorio {
         this.capacidad = capacidad;
         this.equiposEncendidos = false;
     }
+
+    public void abrirLaboratorio() {
+        equiposEncendidos = true;
+        System.out.println("El laboratorio " + nombreLab + " ha sido abierto. ¿Equipos encendidos? true");
+    }
 }
