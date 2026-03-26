@@ -12,4 +12,8 @@ public class Estudiante {
         this.carrera = carrera;
         this.semestre = semestre;
     }
+
+    public void presentarse() {
+        System.out.println("Hola, soy " + nombre + ", estudiante de " + carrera + " en el semestre " + semestre + ".");
+    }
 }
