@@ -1,5 +1,13 @@
 package universidad.infraestructura;
 
 public class Laboratorio {
-    
+    private String nombreLab;
+    private int capacidad;
+    private boolean equiposEncendidos;
+
+    public Laboratorio(String nombreLab, int capacidad) {
+        this.nombreLab = nombreLab;
+        this.capacidad = capacidad;
+        this.equiposEncendidos = false;
+    }
 }
