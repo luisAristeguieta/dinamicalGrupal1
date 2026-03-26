@@ -4,5 +4,6 @@ import universidad.usuarios.Estudiante;
 import universidad.infraestructura.Laboratorio;
 
 public class SistemaCampus {
+    
 
 }
