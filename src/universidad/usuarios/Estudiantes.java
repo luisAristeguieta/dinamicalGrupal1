@@ -16,4 +16,8 @@ public class Estudiante {
     public void presentarse() {
         System.out.println("Hola, soy " + nombre + ", estudiante de " + carrera + " en el semestre " + semestre + ".");
     }
+
+    public void estudiar() {
+        System.out.println("El estudiante " + nombre + " (Matrícula: " + matricula + ") está estudiando para sus exámenes.");
+    }
 }
