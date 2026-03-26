@@ -15,4 +15,8 @@ public class Laboratorio {
         equiposEncendidos = true;
         System.out.println("El laboratorio " + nombreLab + " ha sido abierto. ¿Equipos encendidos? true");
     }
+
+    public void mostrarInformacion() {
+        System.out.println("--- Info Lab: " + nombreLab + " | Capacidad: " + capacidad + " personas ---");
+    }
 }
